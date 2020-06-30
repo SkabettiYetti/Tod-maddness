@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: 1e01ee424a2bc8045998eadc23926533
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4457930068186403624
+    second: Green Tint Retro Gameboy Sprites Spaced_0
+  - first:
+      213: 5959809734909620638
+    second: Green Tint Retro Gameboy Sprites Spaced_1
+  - first:
+      213: -1800571061350168046
+    second: Green Tint Retro Gameboy Sprites Spaced_2
+  - first:
+      213: -3781735169685101209
+    second: Green Tint Retro Gameboy Sprites Spaced_3
+  - first:
+      213: -3393422127287303768
+    second: Green Tint Retro Gameboy Sprites Spaced_4
+  - first:
+      213: -2082256427046028670
+    second: Green Tint Retro Gameboy Sprites Spaced_5
+  - first:
+      213: -5688861916444875594
+    second: Green Tint Retro Gameboy Sprites Spaced_6
+  - first:
+      213: -4032979276822766740
+    second: Green Tint Retro Gameboy Sprites Spaced_7
+  - first:
+      213: 211261471348034174
+    second: Green Tint Retro Gameboy Sprites Spaced_8
+  - first:
+      213: 4883345312517842959
+    second: Green Tint Retro Gameboy Sprites Spaced_9
+  - first:
+      213: 3957594229258942046
+    second: Green Tint Retro Gameboy Sprites Spaced_10
+  - first:
+      213: 7518719069925772512
+    second: Green Tint Retro Gameboy Sprites Spaced_11
+  - first:
+      213: 2991226326604204652
+    second: Green Tint Retro Gameboy Sprites Spaced_12
+  - first:
+      213: 1932749648867185940
+    second: Green Tint Retro Gameboy Sprites Spaced_13
+  - first:
+      213: -6422267551586656969
+    second: Green Tint Retro Gameboy Sprites Spaced_14
+  - first:
+      213: -6676134378865529380
+    second: Green Tint Retro Gameboy Sprites Spaced_15
+  - first:
+      213: 7460773926217785316
+    second: Green Tint Retro Gameboy Sprites Spaced_16
+  - first:
+      213: 3104825327534978962
+    second: Green Tint Retro Gameboy Sprites Spaced_17
+  - first:
+      213: -3392144443939877539
+    second: Green Tint Retro Gameboy Sprites Spaced_18
+  - first:
+      213: 4844893125372225411
+    second: Green Tint Retro Gameboy Sprites Spaced_19
+  - first:
+      213: -7507276260442079992
+    second: Green Tint Retro Gameboy Sprites Spaced_20
+  - first:
+      213: 8244482227167632098
+    second: Green Tint Retro Gameboy Sprites Spaced_21
+  - first:
+      213: -8305335454049341015
+    second: Green Tint Retro Gameboy Sprites Spaced_22
+  - first:
+      213: 8128249662803048120
+    second: Green Tint Retro Gameboy Sprites Spaced_23
+  - first:
+      213: 6871161103032770818
+    second: Green Tint Retro Gameboy Sprites Spaced_24
+  - first:
+      213: -1010899213106124261
+    second: Green Tint Retro Gameboy Sprites Spaced_25
+  - first:
+      213: 729927235576959029
+    second: Green Tint Retro Gameboy Sprites Spaced_26
+  - first:
+      213: -4346604970024935942
+    second: Green Tint Retro Gameboy Sprites Spaced_27
+  - first:
+      213: -6312038643375035170
+    second: Green Tint Retro Gameboy Sprites Spaced_28
+  - first:
+      213: 3051596146747509857
+    second: Green Tint Retro Gameboy Sprites Spaced_29
+  - first:
+      213: -4602242467243347037
+    second: Green Tint Retro Gameboy Sprites Spaced_30
+  - first:
+      213: 1167626472527668865
+    second: Green Tint Retro Gameboy Sprites Spaced_31
+  - first:
+      213: 1596645294966168437
+    second: Green Tint Retro Gameboy Sprites Spaced_32
+  - first:
+      213: 8400735136227515197
+    second: Green Tint Retro Gameboy Sprites Spaced_33
+  - first:
+      213: -1553032807595522997
+    second: Green Tint Retro Gameboy Sprites Spaced_34
+  - first:
+      213: -8569104469866338554
+    second: Green Tint Retro Gameboy Sprites Spaced_35
+  - first:
+      213: 2797050858116133560
+    second: Green Tint Retro Gameboy Sprites Spaced_36
+  - first:
+      213: 3485212184948910766
+    second: Green Tint Retro Gameboy Sprites Spaced_37
+  - first:
+      213: -3731377526164057658
+    second: Green Tint Retro Gameboy Sprites Spaced_38
+  - first:
+      213: -4758420798420482267
+    second: Green Tint Retro Gameboy Sprites Spaced_39
+  - first:
+      213: -7023379645173854002
+    second: Green Tint Retro Gameboy Sprites Spaced_40
+  - first:
+      213: 6494715325652832992
+    second: Green Tint Retro Gameboy Sprites Spaced_41
+  - first:
+      213: -3249803132104247126
+    second: Green Tint Retro Gameboy Sprites Spaced_42
+  - first:
+      213: -9107693837614521009
+    second: Green Tint Retro Gameboy Sprites Spaced_43
+  - first:
+      213: 928847566483220791
+    second: Green Tint Retro Gameboy Sprites Spaced_44
+  - first:
+      213: 5603285518823948756
+    second: Green Tint Retro Gameboy Sprites Spaced_45
+  - first:
+      213: -320820756339863089
+    second: Green Tint Retro Gameboy Sprites Spaced_46
+  - first:
+      213: -6578502296890236895
+    second: Green Tint Retro Gameboy Sprites Spaced_47
+  - first:
+      213: -792814735952389434
+    second: Green Tint Retro Gameboy Sprites Spaced_48
+  - first:
+      213: -7934298224430014487
+    second: Green Tint Retro Gameboy Sprites Spaced_49
+  - first:
+      213: 4241467566688412621
+    second: Green Tint Retro Gameboy Sprites Spaced_50
+  - first:
+      213: 4330517196049967832
+    second: Green Tint Retro Gameboy Sprites Spaced_51
+  - first:
+      213: 6808079300826011016
+    second: Green Tint Retro Gameboy Sprites Spaced_52
+  - first:
+      213: 4990702035687527061
+    second: Green Tint Retro Gameboy Sprites Spaced_53
+  - first:
+      213: -6028970884387972059
+    second: Green Tint Retro Gameboy Sprites Spaced_54
+  - first:
+      213: -624632048079084348
+    second: Green Tint Retro Gameboy Sprites Spaced_55
+  - first:
+      213: 648841197313159872
+    second: Green Tint Retro Gameboy Sprites Spaced_56
+  - first:
+      213: 2062445415303440084
+    second: Green Tint Retro Gameboy Sprites Spaced_57
+  - first:
+      213: 5666137981258685357
+    second: Green Tint Retro Gameboy Sprites Spaced_58
+  - first:
+      213: 6096021352947523873
+    second: Green Tint Retro Gameboy Sprites Spaced_59
+  - first:
+      213: 5998215669508458583
+    second: Green Tint Retro Gameboy Sprites Spaced_60
+  - first:
+      213: 3098841108292394990
+    second: Green Tint Retro Gameboy Sprites Spaced_61
+  - first:
+      213: -7421962827480271798
+    second: Green Tint Retro Gameboy Sprites Spaced_62
+  - first:
+      213: -8754331568803771372
+    second: Green Tint Retro Gameboy Sprites Spaced_63
+  - first:
+      213: -293192033472080183
+    second: Green Tint Retro Gameboy Sprites Spaced_64
+  - first:
+      213: 3913607070497522492
+    second: Green Tint Retro Gameboy Sprites Spaced_65
+  - first:
+      213: -7555165934355266621
+    second: Green Tint Retro Gameboy Sprites Spaced_66
+  - first:
+      213: -6212697279720782722
+    second: Green Tint Retro Gameboy Sprites Spaced_67
+  - first:
+      213: -5298276056803677808
+    second: Green Tint Retro Gameboy Sprites Spaced_68
+  - first:
+      213: 4210340564368382936
+    second: Green Tint Retro Gameboy Sprites Spaced_69
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_0
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2879
+        width: 163
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eddf1987dbbde43b15d96b20233a0b
+      internalID: -4457930068186403624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_1
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2879
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef0b1ea182e3654d9b8c385f25f3420
+      internalID: 5959809734909620638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_2
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2879
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657ebcc7bb9dde04c901b08afcfa36a9
+      internalID: -1800571061350168046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2559
+        width: 161
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091ede726478d8f48879ff46c645a3e9
+      internalID: -3781735169685101209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2559
+        width: 162
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4842ca60977884cb340481d86c166f
+      internalID: -3393422127287303768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2568
+        width: 163
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a72ae03a519f95488161e2eb391dbdb
+      internalID: -2082256427046028670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_6
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 2400
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926eb81bd1ef3084db47a9dac2dd7522
+      internalID: -5688861916444875594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_7
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2400
+        width: 163
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed6b0475881b164eb5381852eba70c6
+      internalID: -4032979276822766740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_8
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 2400
+        width: 163
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef1c1a418753f0429929d11729c3e4a
+      internalID: 211261471348034174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_9
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2509
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af5f81d3d47b7f4bb2229566ad70ca5
+      internalID: 4883345312517842959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_10
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 2400
+        width: 163
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1622234f48c59a4dbe6a9cbbad6bbd1
+      internalID: 3957594229258942046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_11
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 2400
+        width: 324
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d385dfa5115d4d9b6483287d7c5c4
+      internalID: 7518719069925772512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_12
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2489
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a97d59476b0794bb6d287d70a305d7
+      internalID: 2991226326604204652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_13
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2468
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25c3934f635b3f459dde20d3974d51f
+      internalID: 1932749648867185940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2449
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b88849c24b4e499f88bf34efbd9b4
+      internalID: -6422267551586656969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2239
+        width: 161
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7c7f739bc93c0448903c9b4a9a3cea
+      internalID: -6676134378865529380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2239
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c217491293c827449b280af5890d25f7
+      internalID: 7460773926217785316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_17
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2239
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d797d97543f62604da9eb8c7a1251b34
+      internalID: 3104825327534978962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_18
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2289
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48af7deec5e9ac44b84d7e9f33958703
+      internalID: -3392144443939877539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_19
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 2079
+        width: 163
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c070a2766eefb468e62edfb544d259
+      internalID: 4844893125372225411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1918
+        width: 161
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4017e7e399d22d4ebe28c6392caa073
+      internalID: -7507276260442079992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1918
+        width: 162
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed98d95fef6b1224ba3f32ccd8c20a8a
+      internalID: 8244482227167632098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_22
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1918
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a457117cbfde4ca01ccf59591bb4d
+      internalID: -8305335454049341015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1918
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa46f1d074e5fb4b8580ed99c5eed0e
+      internalID: 8128249662803048120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_24
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1918
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5632f4b0c31c64f47956fe225c2503a5
+      internalID: 6871161103032770818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_25
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1918
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d0b14ba95c35844baeba33be8749f3
+      internalID: -1010899213106124261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_26
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1439
+        width: 642
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654157208f05b8749a82fa1e585bdc71
+      internalID: 729927235576959029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_27
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 1918
+        width: 163
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6beb97688ebc42974788ff216e065
+      internalID: -4346604970024935942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1598
+        width: 161
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509d4535c552df44b6749959c197993
+      internalID: -6312038643375035170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1279
+        width: 322
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45df440440473f04a8f2ef5141d1e819
+      internalID: 3051596146747509857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_30
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1598
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c4dd11559af174ebb92b540751d0d9
+      internalID: -4602242467243347037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_31
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1598
+        width: 162
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28836f3dc69051f41aad7ead36250a41
+      internalID: 1167626472527668865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_32
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1598
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a036c627b18a740840e4c585e64bd8
+      internalID: 1596645294966168437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_33
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1439
+        width: 163
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c298a4adc595294aa1e69f2734c16ea
+      internalID: 8400735136227515197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_34
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 1439
+        width: 322
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fbc8edb3b22ca4387a79d7bda7df6b
+      internalID: -1553032807595522997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_35
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1279
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aacf76ab5900141b0c7cf3330b5a54
+      internalID: -8569104469866338554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_36
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1279
+        width: 113
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f59db57df6a1a4da100122147d4de2
+      internalID: 2797050858116133560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_37
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1279
+        width: 113
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606cba11d153b5545912dca53eaa4212
+      internalID: 3485212184948910766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_38
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1279
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90acfec1ed31e94eb448474ff677368
+      internalID: -3731377526164057658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_39
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 959
+        width: 642
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7295dca1c2e3fd4eb5d2dbb91cfc635
+      internalID: -4758420798420482267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 639
+        width: 483
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c53b819cf1ca0b479c0033ac5780294
+      internalID: -7023379645173854002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_41
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 480
+        width: 643
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36344cfa269c8aa4babbdfa690710c7e
+      internalID: 6494715325652832992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_42
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 880
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d07cc66cd9be84780c976a0cec0d2c
+      internalID: -3249803132104247126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_43
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 680
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7e7d92a27440a44a4b4d0522199b64
+      internalID: -9107693837614521009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_44
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 730
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0af395ccea1d94faa18790baa46a0c
+      internalID: 928847566483220791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_45
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 730
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f890d2c32a7c49a8db111c9ef09f0
+      internalID: 5603285518823948756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_46
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 730
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcef7ef5f8fd6b4e8fa6e834567e529
+      internalID: -320820756339863089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_47
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 730
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe1b63d53dbb964b89cc40ce9d28fce
+      internalID: -6578502296890236895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_48
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 730
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2146c9dbee0052943b8bed5c757f7d63
+      internalID: -792814735952389434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_49
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 730
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674dedbe81894b74fbeb9099b899feff
+      internalID: -7934298224430014487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_50
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 648
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c404ab27662f24db79a61316a0a6c3
+      internalID: 4241467566688412621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_51
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 648
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b6011f214ab234caf528e9022be579
+      internalID: 4330517196049967832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 648
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821ee699703a92b428e33fb97b0b180e
+      internalID: 6808079300826011016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_53
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 648
+        width: 13
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a65ff61b23eeda4eaa098b5110a3294
+      internalID: 4990702035687527061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_54
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 648
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa4001894dee3442b9c1ef3cd9e8fca
+      internalID: -6028970884387972059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_55
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 689
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99c01d27c7760d42951ce291fe6c130
+      internalID: -624632048079084348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_56
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 669
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5558d8128139abc4fb992b8e54e6ff60
+      internalID: 648841197313159872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_57
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 539
+        width: 112
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0a6360f3465af47b77ba39d398cf02
+      internalID: 2062445415303440084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_58
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 480
+        width: 322
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be142f2b7ca349048a932410193aa5c8
+      internalID: 5666137981258685357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 178
+        width: 163
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8259b81fcbe614788cfa174af36c71
+      internalID: 6096021352947523873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_60
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 178
+        width: 163
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a2ab30ac51ab448265df3a0e4ac7e
+      internalID: 5998215669508458583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_61
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 178
+        width: 163
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d3e050896c344392fffe41f963dc1
+      internalID: 3098841108292394990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_62
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 178
+        width: 162
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a3e203678eaa459a5653c6c1124e0
+      internalID: -7421962827480271798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_63
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 178
+        width: 163
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cc1c1cf9df3274587ca09d40a954d4
+      internalID: -8754331568803771372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_64
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 159
+        width: 322
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf5828028294104d8f010cdabab2351
+      internalID: -293192033472080183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 19
+        width: 163
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0402cad234b1a4897ceb0b13e803d3
+      internalID: 3913607070497522492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_66
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 19
+        width: 163
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c84513f010c62f459f2929ac34c2da7
+      internalID: -7555165934355266621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_67
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 19
+        width: 163
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f623d2d226cc3c49b99ae424d70f906
+      internalID: -6212697279720782722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_68
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 19
+        width: 162
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57fd88651d4a784cb676e992364e0c0
+      internalID: -5298276056803677808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Tint Retro Gameboy Sprites Spaced_69
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 19
+        width: 163
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf976c897aa3b664692a96c273d48324
+      internalID: 4210340564368382936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

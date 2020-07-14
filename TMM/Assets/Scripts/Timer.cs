@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
 
     float currentTime = 0f;
     float startingTime = 30f;
+    public GameObject goPanel; //game over panel 
 
     [SerializeField] Text countdownText;
 
@@ -25,6 +26,9 @@ public class Timer : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
+            goPanel.SetActive(true);
+            Time.timeScale = 0;
+            //PlayerController.instance.interacting = true; //Proably a better way to do this
         }
     }
 }

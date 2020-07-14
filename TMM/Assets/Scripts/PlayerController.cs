@@ -11,7 +11,9 @@ public class PlayerController : MonoBehaviour
     public Animator myAnim;
     public Slider slider;
 
-    private bool interacting = false;
+    public GameObject Slider;
+
+    public bool interacting = false;
 
     public static PlayerController instance;
 
@@ -23,7 +25,23 @@ public class PlayerController : MonoBehaviour
    
     void Update()
     {
+        Movement();
 
+
+        //Proably a better way but this works for now
+        if(interacting == false)
+        {
+            Slider.SetActive(false); 
+        }
+        else if (interacting == true)
+        {
+            Slider.SetActive(true);
+        }
+        
+    }
+
+    void Movement()
+    {
         if (!interacting)
         {
             theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
@@ -39,7 +57,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if(slider.value < 1)
+            if (slider.value < 10)
             {
                 slider.value += 0.1f;
             }

@@ -6,27 +6,45 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
 
+    private InteractableController interactingObject;
+
+    //Player Movement
     public Rigidbody2D theRB;
     public float moveSpeed;
     public Animator myAnim;
     public Slider slider;
 
+    //Level Start
+    public GameObject Bed;
+    public GameObject Player;
+    public bool isSleeping;
+
+    //Interaction
     public GameObject SliderObject;
-    private InteractableController interactingObject;
-
-    public bool interacting = false;
-
+    public bool interacting;
     public static PlayerController instance;
+
 
     void Start()
     {
         instance = this;
+
+        //Level Start
+        Player.transform.position = Bed.transform.position;
+        isSleeping = true;
     }
 
-   
+
     void Update()
     {
-        if (!interacting)
+        //Level Start
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isSleeping = false;
+        }
+
+        //Movement stuff
+        if (!interacting && !isSleeping)
         {
             Movement();
         }
@@ -43,7 +61,7 @@ public class PlayerController : MonoBehaviour
                 SliderObject.SetActive(false);
                 interactingObject.GetComponent<InteractableController>().Complete();
             }
-        }   
+        }
     }
 
     void Movement()

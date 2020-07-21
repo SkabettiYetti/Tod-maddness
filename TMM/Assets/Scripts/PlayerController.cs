@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
         {
             if (slider.value < 10)
             {
-                slider.value += 0.1f;
+                slider.value += 0.02f;
             }
             else
             {

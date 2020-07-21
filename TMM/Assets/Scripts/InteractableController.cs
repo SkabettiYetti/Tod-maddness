@@ -17,6 +17,11 @@ public class InteractableController : MonoBehaviour
     public GameObject tick;
     public GameObject exclamationMark;
 
+    public bool hasInventory;
+    public GameObject inventory;
+    public Item item;
+    public PlayerInventory playerInventory;
+
     public void Start()
     {
         instance = this;
@@ -28,8 +33,16 @@ public class InteractableController : MonoBehaviour
         {
             if (playerTouching && !hasBeenUsed)
             {
-                player.GetComponent<PlayerController>().Interact(this);
-                hasBeenUsed = true;
+                if (hasInventory)
+                {
+                    item.image.SetActive(false);
+                    playerInventory.pickUpItem(item.name);
+                }
+                else
+                {
+                    player.GetComponent<PlayerController>().Interact(this);
+                    hasBeenUsed = true;
+                }
             }
         }
 
@@ -54,6 +67,13 @@ public class InteractableController : MonoBehaviour
             {
                 exclamationMark.SetActive(true);
             }
+
+            if (hasInventory)
+            {
+                inventory.SetActive(true);
+                item.image.SetActive(true);
+            }
+            
         }       
     }
 

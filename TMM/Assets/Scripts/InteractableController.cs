@@ -15,6 +15,7 @@ public class InteractableController : MonoBehaviour
     public GameObject player;
     public GameObject Finish;
     public GameObject tick;
+    public GameObject exclamationMark;
 
     public void Start()
     {
@@ -49,6 +50,10 @@ public class InteractableController : MonoBehaviour
         if (other.tag == "Player")
         {
             playerTouching = true;
+            if (!hasBeenUsed)
+            {
+                exclamationMark.SetActive(true);
+            }
         }       
     }
 
@@ -57,11 +62,13 @@ public class InteractableController : MonoBehaviour
         if (other.tag == "Player")
         {
             playerTouching = false;
+            exclamationMark.SetActive(false);
         }
     }
 
     public void Complete()
     {
         tick.SetActive(true);
+        exclamationMark.SetActive(false);
     }
 }

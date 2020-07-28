@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     //Player Movement
     public Rigidbody2D theRB;
-    public float moveSpeed;
+    public float moveSpeed = 5;
     public Animator myAnim;
     public Slider slider;
 
@@ -50,9 +50,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (slider.value < 10)
+            if (slider.value < 3)
             {
-                slider.value += 0.02f;
+                slider.value += Time.deltaTime;
             }
             else
             {
@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
                 interacting = false;
                 SliderObject.SetActive(false);
                 interactingObject.GetComponent<InteractableController>().Complete();
+                moveSpeed = 5;
             }
         }
     }
@@ -80,6 +81,7 @@ public class PlayerController : MonoBehaviour
 
     public void Interact(InteractableController interactingObject)
     {
+        moveSpeed = 0;
         interacting = true;
         this.interactingObject = interactingObject;
         SliderObject.SetActive(true);

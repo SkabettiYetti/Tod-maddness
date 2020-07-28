@@ -40,6 +40,11 @@ public class GameEventController : MonoBehaviour
     void Update()
     {
         Timer();
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     public void Timer()

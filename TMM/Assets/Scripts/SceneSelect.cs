@@ -27,6 +27,10 @@ public class SceneSelect : MonoBehaviour
     public GameObject woPanel;
     public GameObject T1, T2, T3;
     public GameObject GoText;
+    public Text score;
+    public GameObject exclamationMark;
+
+    private bool levelEnd = false;
 
     private void Update()
     {
@@ -40,6 +44,7 @@ public class SceneSelect : MonoBehaviour
         if (T1.activeInHierarchy && T2.activeInHierarchy & T3.activeInHierarchy && !woPanel.activeInHierarchy == true)
         {
             GoText.SetActive(true);
+            levelEnd = true;
         }
        
 
@@ -51,6 +56,7 @@ public class SceneSelect : MonoBehaviour
                 if (T1.activeInHierarchy && T2.activeInHierarchy & T3.activeInHierarchy)
                 {
                     woPanel.SetActive(true);
+                    exclamationMark.SetActive(false);
                 }
             }
         }
@@ -58,17 +64,25 @@ public class SceneSelect : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (levelEnd)
         {
-            touching = true;
+            if (other.tag == "Player")
+            {
+                touching = true;
+                exclamationMark.SetActive(true);
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (levelEnd)
         {
-            touching = false;
+            if (other.tag == "Player")
+            {
+                touching = false;
+                exclamationMark.SetActive(false);
+            }
         }
     }
 }

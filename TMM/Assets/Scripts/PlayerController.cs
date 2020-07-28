@@ -50,6 +50,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            myAnim.SetFloat("MoveX", 0);
+            myAnim.SetFloat("MoveY", 0);
+            theRB.velocity = Vector2.zero;
             if (slider.value < 3)
             {
                 slider.value += Time.deltaTime;

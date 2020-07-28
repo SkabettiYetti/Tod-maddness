@@ -3210,12 +3210,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a692ed2c2f89dc4aa61ab0cd3890a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 45
+  startingTime: 35
   goPanel: {fileID: 1344603157}
   woPanel: {fileID: 253428127}
   wakeText: {fileID: 1564568089}
   player: {fileID: 346129563}
   Bed: {fileID: 586283550}
+  GoText: {fileID: 513446745}
   timeGo: 0
   playerTouching: 0
   countdownText: {fileID: 587682530}

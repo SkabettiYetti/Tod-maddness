@@ -31,6 +31,7 @@ public class InteractableController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+
             if (playerTouching && !hasBeenUsed)
             {
                 if (hasInventory)
@@ -44,9 +45,13 @@ public class InteractableController : MonoBehaviour
                     hasBeenUsed = true;
                 }
             }
+
+            // so the exclamation mark doesn't show while interacting 
+            exclamationMark.SetActive(false);
         }
 
         //Currently not working
+        //is this still not working?
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (playerTouching && isFinish)

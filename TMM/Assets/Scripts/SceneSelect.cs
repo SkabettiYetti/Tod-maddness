@@ -29,6 +29,7 @@ public class SceneSelect : MonoBehaviour
     public GameObject GoText;
     public Text score;
     public GameObject exclamationMark;
+    public GameObject playerInventory;
 
     private bool levelEnd = false;
 
@@ -55,6 +56,7 @@ public class SceneSelect : MonoBehaviour
                 GoText.SetActive(false);
                 if (T1.activeInHierarchy && T2.activeInHierarchy & T3.activeInHierarchy)
                 {
+                    playerInventory.SetActive(false);
                     woPanel.SetActive(true);
                     exclamationMark.SetActive(false);
                 }

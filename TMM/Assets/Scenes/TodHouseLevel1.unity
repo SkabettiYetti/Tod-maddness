@@ -3924,6 +3924,7 @@ MonoBehaviour:
   player: {fileID: 346129563}
   Bed: {fileID: 586283550}
   GoText: {fileID: 513446745}
+  playerInventory: {fileID: 346125124}
   timeGo: 0
   playerTouching: 0
   countdownText: {fileID: 587682530}
@@ -26275,6 +26276,7 @@ MonoBehaviour:
   GoText: {fileID: 513446745}
   score: {fileID: 243077678}
   exclamationMark: {fileID: 1938753597}
+  playerInventory: {fileID: 346125124}
 --- !u!1 &2084416797
 GameObject:
   m_ObjectHideFlags: 0

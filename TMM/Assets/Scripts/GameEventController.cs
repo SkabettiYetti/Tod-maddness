@@ -21,6 +21,7 @@ public class GameEventController : MonoBehaviour
     public GameObject player; // <----
     public GameObject Bed;
     public GameObject GoText;
+    public GameObject playerInventory;
 
     public bool timeGo;
     public bool playerTouching = false;
@@ -64,6 +65,7 @@ public class GameEventController : MonoBehaviour
             if (currentTime <= 0)
             {
                 currentTime = 0;
+                playerInventory.SetActive(false);
                 goPanel.SetActive(true);
                 GoText.SetActive(false);
                 PlayerController.instance.isSleeping = true;

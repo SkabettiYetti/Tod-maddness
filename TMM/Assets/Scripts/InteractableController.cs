@@ -34,6 +34,7 @@ public class InteractableController : MonoBehaviour
 
             if (playerTouching && !hasBeenUsed)
             {
+                hasBeenUsed = true;
                 if (hasInventory)
                 {
                     item.image.SetActive(false);
@@ -42,7 +43,6 @@ public class InteractableController : MonoBehaviour
                 else
                 {
                     player.GetComponent<PlayerController>().Interact(this);
-                    hasBeenUsed = true;
                 }
             }
 
@@ -71,12 +71,12 @@ public class InteractableController : MonoBehaviour
             if (!hasBeenUsed)
             {
                 exclamationMark.SetActive(true);
-            }
-
-            if (hasInventory)
-            {
-                inventory.SetActive(true);
-                item.image.SetActive(true);
+                if (hasInventory)
+                {
+                    exclamationMark.SetActive(false);
+                    inventory.SetActive(true);
+                    item.image.SetActive(true);
+                }
             }
             
         }       
@@ -88,6 +88,8 @@ public class InteractableController : MonoBehaviour
         {
             playerTouching = false;
             exclamationMark.SetActive(false);
+            inventory.SetActive(false);
+            item.image.SetActive(false);
         }
     }
 

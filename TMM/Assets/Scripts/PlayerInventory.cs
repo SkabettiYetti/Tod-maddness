@@ -12,7 +12,7 @@ public class PlayerInventory : MonoBehaviour
         switch (name)
         {
             case "keys":
-                inventory[0].SetActive(true);     
+                inventory[0].SetActive(true);
                 break;
             case "toothbrush":
                 inventory[1].SetActive(true);

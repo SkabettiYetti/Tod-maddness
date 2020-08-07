@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: cc8bdf26479c27843b40aeb8dd3fe209
   - enabled: 1
-    path: Assets/Scenes/TodHouseLevel1.unity
+    path: Assets/Scenes/Normal.unity
     guid: f23c676dc8f22774db11cb0344fae360
   - enabled: 1
-    path: Assets/Scenes/TodHouseLevel2.unity
+    path: Assets/Scenes/Easy.unity
     guid: 182e14fbcffb27a4ab7d5aaf2d1be3ef
   m_configObjects: {}

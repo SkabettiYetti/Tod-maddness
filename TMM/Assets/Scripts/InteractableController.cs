@@ -39,6 +39,7 @@ public class InteractableController : MonoBehaviour
                 {
                     item.image.SetActive(false);
                     playerInventory.pickUpItem(item.name);
+                    Complete();
                 }
                 else
                 {

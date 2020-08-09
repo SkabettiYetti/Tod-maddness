@@ -22,13 +22,27 @@ public class InteractableController : MonoBehaviour
     public Item item;
     public PlayerInventory playerInventory;
 
+    public bool GameTime;
+    public GameObject ArrowGame;
+
+
     public void Start()
     {
         instance = this;
+
+        GameTime = false;
+
     }
 
     void Update()
     {
+
+        if (GameTime == false)
+        {
+            ArrowGame.SetActive(false);
+        }
+
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
@@ -51,8 +65,7 @@ public class InteractableController : MonoBehaviour
             exclamationMark.SetActive(false);
         }
 
-        //Currently not working
-        //is this still not working?
+        //is this still not working?,  It works it's the level finish (I think) 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (playerTouching && isFinish)

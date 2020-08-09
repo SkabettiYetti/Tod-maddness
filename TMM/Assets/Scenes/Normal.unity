@@ -560,6 +560,8 @@ MonoBehaviour:
   inventory: {fileID: 0}
   item: {fileID: 0}
   playerInventory: {fileID: 0}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &196132868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -752,6 +754,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: keys
   image: {fileID: 222006126}
+--- !u!1 &226816528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226816529}
+  - component: {fileID: 226816530}
+  m_Layer: 0
+  m_Name: keySpawn2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226816529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226816528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.17, y: -1.98, z: -0.7871094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &226816530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226816528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &227821587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2221,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 109014460}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!1 &431740366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +2975,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 1834972551}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &515585664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3578,6 +3628,8 @@ MonoBehaviour:
   inventory: {fileID: 0}
   item: {fileID: 0}
   playerInventory: {fileID: 0}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!1 &785226276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4592,6 +4644,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 459652564}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &984137191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5679,6 +5733,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 785226278}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &1311951591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6068,6 +6124,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1408413961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408413962}
+  m_Layer: 0
+  m_Name: Keys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1408413962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408413961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.351196, y: -1.3184423, z: -0.7871094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425809240
 GameObject:
   m_ObjectHideFlags: 0
@@ -6499,6 +6585,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509709920}
   m_CullTransparentMesh: 0
+--- !u!1 &1519365696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1519365697}
+  - component: {fileID: 1519365698}
+  m_Layer: 0
+  m_Name: KeySpawn1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1519365697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519365696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.25, y: 3.49, z: -0.7871094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1519365698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519365696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1523512328
 GameObject:
   m_ObjectHideFlags: 0
@@ -7438,6 +7568,8 @@ MonoBehaviour:
   inventory: {fileID: 0}
   item: {fileID: 0}
   playerInventory: {fileID: 0}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &1620653497
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7519,6 +7651,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 1890947136}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &1638948897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7627,6 +7761,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1679440458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679440459}
+  m_Layer: 0
+  m_Name: KeySpawn3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679440459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679440458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.351196, y: -1.3184423, z: -0.7871094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684549083
 GameObject:
   m_ObjectHideFlags: 0
@@ -8509,6 +8673,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 1597299160}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &1960521539
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8696,6 +8862,8 @@ MonoBehaviour:
   inventory: {fileID: 0}
   item: {fileID: 0}
   playerInventory: {fileID: 0}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &1994596234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27157,6 +27325,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 1162081625}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &2101863005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27418,6 +27588,8 @@ MonoBehaviour:
   inventory: {fileID: 1469278864}
   item: {fileID: 1684549085}
   playerInventory: {fileID: 346129570}
+  GameTime: 0
+  ArrowGame: {fileID: 0}
 --- !u!61 &2147333368
 BoxCollider2D:
   m_ObjectHideFlags: 0

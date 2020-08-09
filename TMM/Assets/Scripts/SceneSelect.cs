@@ -22,6 +22,16 @@ public class SceneSelect : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void Easy()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Normal()
+    {
+        SceneManager.LoadScene(3);
+    }
+
     public bool touching;
     GameObject player;
     public GameObject woPanel;

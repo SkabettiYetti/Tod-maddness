@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     public bool interacting;
     public static PlayerController instance;
 
+    public GameEventController gameController;
+
 
     void Start()
     {
@@ -37,33 +39,37 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //Level Start
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isSleeping)
         {
-            isSleeping = false;
-        }
-
-        //Movement stuff
-        if (!interacting && !isSleeping)
-        {
-            Movement();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                isSleeping = false;
+            }
         }
         else
         {
-            myAnim.SetFloat("MoveX", 0);
-            myAnim.SetFloat("MoveY", 0);
-            theRB.velocity = Vector2.zero;
-            if (slider.value < 3)
+            if (!interacting && !isSleeping)
             {
-                slider.value += Time.deltaTime;
+                Movement();
             }
             else
             {
-                slider.value = 0;
-                interacting = false;
-                SliderObject.SetActive(false);
-                interactingObject.GetComponent<InteractableController>().Complete();
-                moveSpeed = 5;
+                myAnim.SetFloat("MoveX", 0);
+                myAnim.SetFloat("MoveY", 0);
+                theRB.velocity = Vector2.zero;
+                if (slider.value < 3)
+                {
+                    slider.value += Time.deltaTime;
+                }
+                else
+                {
+                    slider.value = 0;
+                    interacting = false;
+                    SliderObject.SetActive(false);
+                    interactingObject.GetComponent<InteractableController>().Complete();
+                    moveSpeed = 5;
+                    gameController.GetComponent<GameEventController>().ObjectiveComplete();
+                }
             }
         }
     }

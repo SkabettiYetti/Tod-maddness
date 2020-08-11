@@ -6,90 +6,54 @@ using UnityEngine.UI;
 
 public class SceneSelect : MonoBehaviour
 {
-    public void LevelStart()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
-
-    //We could proably use a array for level list 
-    public void LevelNext()
-    {
-        SceneManager.LoadScene(2);
-    }
-
     public bool touching;
+
+    //Delete all variables below
     GameObject player;
-    public GameObject woPanel;
-    //dirty way of doing it but should work
-    public GameObject T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13;
-    public GameObject GoText;
+    public GameObject wonPanel;
+    public GameObject gameOverText;
     public Text score;
     public GameObject exclamationMark;
     public GameObject playerInventory;
-
-    private bool levelEnd = false;
+    public GameObject timeToGoText;
 
     private void Update()
     {
-        LevelendInput();
-
-    }
-
-    //Don't look as this 
-    void LevelendInput()
-    {
-        if (T1.activeInHierarchy && T2.activeInHierarchy & T3.activeInHierarchy & T4.activeInHierarchy & T4.activeInHierarchy
-                    & T5.activeInHierarchy & T6.activeInHierarchy & T7.activeInHierarchy & T8.activeInHierarchy & T9.activeInHierarchy
-                    & T10.activeInHierarchy & T11.activeInHierarchy & T12.activeInHierarchy & T13.activeInHierarchy && !woPanel.activeInHierarchy == true)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            GoText.SetActive(true);
-            levelEnd = true;
-        }
-       
-
-        if (touching == true)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (touching == true)
             {
-                GoText.SetActive(false);
-                if (T1.activeInHierarchy && T2.activeInHierarchy & T3.activeInHierarchy & T4.activeInHierarchy & T4.activeInHierarchy 
-                    & T5.activeInHierarchy & T6.activeInHierarchy & T7.activeInHierarchy & T8.activeInHierarchy & T9.activeInHierarchy
-                    & T10.activeInHierarchy & T11.activeInHierarchy & T12.activeInHierarchy & T13.activeInHierarchy)
+                gameOverText.SetActive(false);
+                if(playerInventory != null)
                 {
                     playerInventory.SetActive(false);
-                    woPanel.SetActive(true);
-                    exclamationMark.SetActive(false);
                 }
+                wonPanel.SetActive(true);
+                exclamationMark.SetActive(false);
+                timeToGoText.SetActive(false);
+
+                //replace above with below
+                //SceneManager.LoadScene(LevelEnd);
             }
         }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (levelEnd)
+        if (other.tag == "Player")
         {
-            if (other.tag == "Player")
-            {
-                touching = true;
-                exclamationMark.SetActive(true);
-            }
+            touching = true;
+            exclamationMark.SetActive(true);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (levelEnd)
+
+        if (other.tag == "Player")
         {
-            if (other.tag == "Player")
-            {
-                touching = false;
-                exclamationMark.SetActive(false);
-            }
+            touching = false;
+            exclamationMark.SetActive(false);
         }
     }
 }

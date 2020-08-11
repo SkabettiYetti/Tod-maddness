@@ -15,17 +15,26 @@ public class GameEventController : MonoBehaviour
     //Level Time Select
     public float startingTime;
 
-    public GameObject goPanel; //game over panel 
-    public GameObject woPanel; //Level finish panel
-    public GameObject wakeText; // <-----
-    public GameObject player; // <----
-    public GameObject Bed;
-    public GameObject GoText;
+    public GameObject gameOverPanel;
+    public GameObject wonPanel;
+    public GameObject wakeText;
+    public GameObject player;
+    public GameObject timeToGoText;
     public GameObject playerInventory;
     public GameObject objectInventory;
 
+    public GameObject wardrobe;
+    public GameObject breakfast;
+    public GameObject sink;
+    public GameObject levelFinish;
+
+    private int objectiveCount = 0;
+    private int clothesCount = 0;
+    private int foodCount = 0;
+
+    public bool isEasyLevel;
+
     public bool timeGo;
-    public bool playerTouching = false;
 
     [SerializeField] Text countdownText;
 
@@ -68,8 +77,8 @@ public class GameEventController : MonoBehaviour
                 currentTime = 0;
                 playerInventory.SetActive(false);
                 objectInventory.SetActive(false);
-                goPanel.SetActive(true);
-                GoText.SetActive(false);
+                gameOverPanel.SetActive(true);
+                timeToGoText.SetActive(false);
                 PlayerController.instance.isSleeping = true;
             }
         }
@@ -83,5 +92,54 @@ public class GameEventController : MonoBehaviour
     public void ExitLevel()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void AddFood()
+    {
+        foodCount++;
+        if(foodCount == 3)
+        {
+            breakfast.SetActive(true);
+        }
+    }
+
+    public void AddClothes()
+    {
+        clothesCount++;
+        if (clothesCount == 3)
+        {
+            wardrobe.SetActive(true);
+        }
+    }
+
+    public void FoundToothbrush()
+    {
+        sink.SetActive(true);
+    }
+
+    public void FoundKeys()
+    {
+        objectiveCount++;
+    }
+
+    public void ObjectiveComplete()
+    {
+        objectiveCount++;
+        if (isEasyLevel)
+        {
+            if (objectiveCount == 3)
+            {
+                levelFinish.SetActive(true);
+                timeToGoText.SetActive(true);
+            }
+        }
+        else
+        {
+            if (objectiveCount == 5)
+            {
+                levelFinish.SetActive(true);
+                timeToGoText.SetActive(true);
+            }
+        }
     }
 }

@@ -8,8 +8,8 @@ public class InteractableController : MonoBehaviour
 
     public static InteractableController instance;
 
-    public bool hasBeenUsed = false;
-    public bool playerTouching = false;
+    private bool hasBeenUsed = false;
+    private bool playerTouching = false;
     public bool isFinish = false;
 
     public GameObject player;
@@ -22,6 +22,7 @@ public class InteractableController : MonoBehaviour
     public Item item;
     public PlayerInventory playerInventory;
 
+
     public void Start()
     {
         instance = this;
@@ -29,16 +30,19 @@ public class InteractableController : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
             if (playerTouching && !hasBeenUsed)
             {
+                // so the exclamation mark doesn't show while interacting 
+                exclamationMark.SetActive(false);
+
                 hasBeenUsed = true;
                 if (hasInventory)
                 {
                     item.image.SetActive(false);
-                    playerInventory.pickUpItem(item.name);
+                    playerInventory.PickUpItem(item.name);
                     Complete();
                 }
                 else
@@ -47,20 +51,15 @@ public class InteractableController : MonoBehaviour
                 }
             }
 
-            // so the exclamation mark doesn't show while interacting 
-            exclamationMark.SetActive(false);
-        }
-
-        //Currently not working
-        //is this still not working?
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+            //is this still not working?,  It works it's the level finish (I think) 
+            /*
             if (playerTouching && isFinish)
             {
                 PlayerController.instance.interacting = true;
-                GameEventController.instance.woPanel.SetActive(true);
+                GameEventController.instance.wonPanel.SetActive(true);
                 Time.timeScale = 0;
             }
+            */
         }
     }
 
@@ -71,16 +70,18 @@ public class InteractableController : MonoBehaviour
             playerTouching = true;
             if (!hasBeenUsed)
             {
-                exclamationMark.SetActive(true);
                 if (hasInventory)
                 {
-                    exclamationMark.SetActive(false);
                     inventory.SetActive(true);
                     item.image.SetActive(true);
                 }
+                else
+                {
+                    exclamationMark.SetActive(true);
+                }
             }
-            
-        }       
+
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -89,8 +90,11 @@ public class InteractableController : MonoBehaviour
         {
             playerTouching = false;
             exclamationMark.SetActive(false);
-            inventory.SetActive(false);
-            item.image.SetActive(false);
+            if (hasInventory)
+            {
+                inventory.SetActive(false);
+                item.image.SetActive(false);
+            }
         }
     }
 

@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 888642968}
-        m_MethodName: LevelStart
+        m_MethodName: LevelSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -331,14 +331,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touching: 0
-  woPanel: {fileID: 0}
-  T1: {fileID: 0}
-  T2: {fileID: 0}
-  T3: {fileID: 0}
-  GoText: {fileID: 0}
+  wonPanel: {fileID: 0}
+  gameOverText: {fileID: 0}
   score: {fileID: 0}
   exclamationMark: {fileID: 0}
   playerInventory: {fileID: 0}
+  timeToGoText: {fileID: 0}
 --- !u!1 &946290276
 GameObject:
   m_ObjectHideFlags: 0

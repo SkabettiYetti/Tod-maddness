@@ -56,4 +56,25 @@ public class SceneSelect : MonoBehaviour
             exclamationMark.SetActive(false);
         }
     }
+
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void EasyMode()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void NormalMode()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void HardMode()
+    {
+        SceneManager.LoadScene(4);
+    }
+
 }

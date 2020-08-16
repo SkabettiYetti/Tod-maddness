@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -46,6 +47,7 @@ public class GameEventController : MonoBehaviour
         //Game Start
         wakeText.SetActive(true);
         timeGo = false;
+        FindObjectOfType<SoundManager>().Play("Alarm");
     }
 
 
@@ -65,10 +67,11 @@ public class GameEventController : MonoBehaviour
         {
             wakeText.SetActive(false);
             timeGo = true;
+            FindObjectOfType<SoundManager>().Stop("Alarm");            
         }
 
         if (timeGo == true)
-        {
+        {           
             currentTime -= 1 * Time.deltaTime;
             countdownText.text = currentTime.ToString("00");
 

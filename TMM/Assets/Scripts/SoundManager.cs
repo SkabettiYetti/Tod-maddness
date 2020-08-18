@@ -36,9 +36,14 @@ public class SoundManager : MonoBehaviour
     }
 
     //Music player
-    public void Start()
+    public void StartTheme()
     {
         Play("Theme");
+    }
+
+    public void StopTheme()
+    {
+        Stop("Theme");
     }
 
     //play by finding the name attached

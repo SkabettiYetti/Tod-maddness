@@ -47,7 +47,9 @@ public class GameEventController : MonoBehaviour
         //Game Start
         wakeText.SetActive(true);
         timeGo = false;
+        //SFX
         FindObjectOfType<SoundManager>().Play("Alarm");
+        FindObjectOfType<SoundManager>().StartTheme();
     }
 
 
@@ -67,6 +69,7 @@ public class GameEventController : MonoBehaviour
         {
             wakeText.SetActive(false);
             timeGo = true;
+            //SFX
             FindObjectOfType<SoundManager>().Stop("Alarm");            
         }
 
@@ -83,6 +86,7 @@ public class GameEventController : MonoBehaviour
                 gameOverPanel.SetActive(true);
                 timeToGoText.SetActive(false);
                 PlayerController.instance.isSleeping = true;
+                FindObjectOfType<SoundManager>().Play("Lose");
             }
         }
     }
@@ -143,6 +147,6 @@ public class GameEventController : MonoBehaviour
                 levelFinish.SetActive(true);
                 timeToGoText.SetActive(true);
             }
-        }
+        }        
     }
 }

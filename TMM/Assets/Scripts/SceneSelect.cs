@@ -31,6 +31,9 @@ public class SceneSelect : MonoBehaviour
                 wonPanel.SetActive(true);
                 exclamationMark.SetActive(false);
                 timeToGoText.SetActive(false);
+                //SFX
+                FindObjectOfType<SoundManager>().StopTheme();
+                FindObjectOfType<SoundManager>().Play("Win");
 
                 //replace above with below
                 //SceneManager.LoadScene(LevelEnd);
@@ -60,21 +63,29 @@ public class SceneSelect : MonoBehaviour
     public void LevelSelect()
     {
         SceneManager.LoadScene(1);
+        //SFX
+        FindObjectOfType<SoundManager>().Play("MenuSelect");
     }
 
     public void EasyMode()
     {
         SceneManager.LoadScene(2);
+        //SFX
+        FindObjectOfType<SoundManager>().Play("MenuSelect");
     }
 
     public void NormalMode()
     {
         SceneManager.LoadScene(3);
+        //SFX
+        FindObjectOfType<SoundManager>().Play("MenuSelect");
     }
 
     public void HardMode()
     {
         SceneManager.LoadScene(4);
+        //SFX
+        FindObjectOfType<SoundManager>().Play("MenuSelect");
     }
 
 }

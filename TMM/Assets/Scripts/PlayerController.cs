@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
 
     public GameEventController gameController;
 
-
     void Start()
     {
         instance = this;
@@ -69,9 +68,11 @@ public class PlayerController : MonoBehaviour
                     interactingObject.GetComponent<InteractableController>().Complete();
                     moveSpeed = 5;
                     gameController.GetComponent<GameEventController>().ObjectiveComplete();
+                    //mainly for SFX
+                    FindObjectOfType<InteractableController>().isFinish = true;
                 }
-            }
-        }
+            }           
+        }        
     }
 
     void Movement()
@@ -93,6 +94,6 @@ public class PlayerController : MonoBehaviour
         moveSpeed = 0;
         interacting = true;
         this.interactingObject = interactingObject;
-        SliderObject.SetActive(true);
+        SliderObject.SetActive(true);        
     }
 }

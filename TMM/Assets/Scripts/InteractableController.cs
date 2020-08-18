@@ -21,6 +21,7 @@ public class InteractableController : MonoBehaviour
     public GameObject inventory;
     public Item item;
     public PlayerInventory playerInventory;
+    public AudioSource audio;
 
 
     public void Start()
@@ -29,12 +30,13 @@ public class InteractableController : MonoBehaviour
     }
 
     void Update()
-    {
-
+    {        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (playerTouching && !hasBeenUsed)
             {
+                //SFX
+                audio.Play();
                 // so the exclamation mark doesn't show while interacting 
                 exclamationMark.SetActive(false);
 
@@ -47,10 +49,9 @@ public class InteractableController : MonoBehaviour
                 }
                 else
                 {
-                    player.GetComponent<PlayerController>().Interact(this);
+                    player.GetComponent<PlayerController>().Interact(this); 
                 }
             }
-
             //is this still not working?,  It works it's the level finish (I think) 
             /*
             if (playerTouching && isFinish)
@@ -59,8 +60,8 @@ public class InteractableController : MonoBehaviour
                 GameEventController.instance.wonPanel.SetActive(true);
                 Time.timeScale = 0;
             }
-            */
-        }
+            */            
+        }        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -78,10 +79,9 @@ public class InteractableController : MonoBehaviour
                 else
                 {
                     exclamationMark.SetActive(true);
-                }
-            }
-
-        }
+                }                
+            }                       
+        }       
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -95,6 +95,7 @@ public class InteractableController : MonoBehaviour
                 inventory.SetActive(false);
                 item.image.SetActive(false);
             }
+            
         }
     }
 
@@ -102,5 +103,6 @@ public class InteractableController : MonoBehaviour
     {
         tick.SetActive(true);
         exclamationMark.SetActive(false);
+        isFinish = true;       
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class InteractableController : MonoBehaviour
 {
 
@@ -21,8 +22,7 @@ public class InteractableController : MonoBehaviour
     public GameObject inventory;
     public Item item;
     public PlayerInventory playerInventory;
-    public AudioSource audio;
-
+    //public AudioSource audio;
 
     public void Start()
     {
@@ -30,13 +30,19 @@ public class InteractableController : MonoBehaviour
     }
 
     void Update()
-    {        
-        if (Input.GetKeyDown(KeyCode.Space))
+    {
+        //semi works
+        if (tag == "Dresser" && isFinish == true)
+        {
+            PlayerController.instance.myAnim.SetBool("IsDressed", true);
+        }
+
+            if (Input.GetKeyDown(KeyCode.Space))
         {
             if (playerTouching && !hasBeenUsed)
             {
                 //SFX
-                audio.Play();
+                //audio.Play();
                 // so the exclamation mark doesn't show while interacting 
                 exclamationMark.SetActive(false);
 

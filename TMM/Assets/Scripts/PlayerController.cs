@@ -25,10 +25,13 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
 
     public GameEventController gameController;
+    public bool Naked, Dressed;
 
     void Start()
     {
         instance = this;
+
+        
 
         //Level Start
         Player.transform.position = Bed.transform.position;
@@ -38,6 +41,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         if (isSleeping)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -53,6 +57,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
+                
                 myAnim.SetFloat("MoveX", 0);
                 myAnim.SetFloat("MoveY", 0);
                 theRB.velocity = Vector2.zero;
@@ -68,6 +73,7 @@ public class PlayerController : MonoBehaviour
                     interactingObject.GetComponent<InteractableController>().Complete();
                     moveSpeed = 5;
                     gameController.GetComponent<GameEventController>().ObjectiveComplete();
+
                     //mainly for SFX
                     FindObjectOfType<InteractableController>().isFinish = true;
                 }

@@ -87,5 +87,4 @@ public class SceneSelect : MonoBehaviour
         //SFX
         FindObjectOfType<SoundManager>().Play("MenuSelect");
     }
-
 }

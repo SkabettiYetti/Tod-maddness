@@ -9,6 +9,7 @@ TagManager:
   - keys
   - Car
   - FinishHelp
+  - Dresser
   layers:
   - Default
   - TransparentFX

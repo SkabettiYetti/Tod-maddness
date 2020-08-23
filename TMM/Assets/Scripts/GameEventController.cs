@@ -8,7 +8,6 @@ using TMPro;
 
 public class GameEventController : MonoBehaviour
 {
-
     public static GameEventController instance;
 
     //Time Start
@@ -16,6 +15,7 @@ public class GameEventController : MonoBehaviour
     //Level Time Select
     public float startingTime;
 
+    //UI 
     public GameObject gameOverPanel;
     public GameObject wonPanel;
     public GameObject wakeText;
@@ -24,17 +24,19 @@ public class GameEventController : MonoBehaviour
     public GameObject playerInventory;
     public GameObject objectInventory;
 
+    //Interactables 
     public GameObject wardrobe;
     public GameObject breakfast;
     public GameObject sink;
     public GameObject levelFinish;
 
+    //inventory
     private int objectiveCount = 0;
     private int clothesCount = 0;
     private int foodCount = 0;
 
+    //Game bools
     public bool isEasyLevel;
-
     public bool timeGo;
 
     [SerializeField] Text countdownText;
@@ -48,8 +50,8 @@ public class GameEventController : MonoBehaviour
         wakeText.SetActive(true);
         timeGo = false;
         //SFX
-        FindObjectOfType<SoundManager>().Play("Alarm");
-        FindObjectOfType<SoundManager>().StartTheme();
+        //FindObjectOfType<SoundManager>().Play("Alarm");
+        //FindObjectOfType<SoundManager>().StartTheme();
     }
 
 
@@ -66,39 +68,33 @@ public class GameEventController : MonoBehaviour
     public void Timer()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        {
+        {   
+            //Level Start
             wakeText.SetActive(false);
             timeGo = true;
+
             //SFX
-            FindObjectOfType<SoundManager>().Stop("Alarm");            
+            //FindObjectOfType<SoundManager>().Stop("Alarm");            
         }
 
         if (timeGo == true)
-        {           
+        {   
+            //Start time setter
             currentTime -= 1 * Time.deltaTime;
             countdownText.text = currentTime.ToString("00");
 
             if (currentTime <= 0)
             {
+                //Game over functions 
                 currentTime = 0;
                 playerInventory.SetActive(false);
                 objectInventory.SetActive(false);
                 gameOverPanel.SetActive(true);
                 timeToGoText.SetActive(false);
                 PlayerController.instance.isSleeping = true;
-                FindObjectOfType<SoundManager>().Play("Lose");
+                //FindObjectOfType<SoundManager>().Play("Lose");
             }
         }
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void ExitLevel()
-    {
-        SceneManager.LoadScene(0);
     }
 
     public void AddFood()
@@ -149,4 +145,23 @@ public class GameEventController : MonoBehaviour
             }
         }        
     }
+
+    public void EasyRestart()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void NormalRestart()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void HardRestart()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void ExitLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
